@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "installCommand": "cd mi-test && npm install",
-  "buildCommand": "cd mi-test && npm run build",
-  "outputDirectory": "mi-test/dist",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/(.*)",
