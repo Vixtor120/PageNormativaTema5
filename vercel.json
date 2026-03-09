@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "installCommand": "cd mi-test && npm install",
+  "buildCommand": "cd mi-test && npm run build",
+  "outputDirectory": "mi-test/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
